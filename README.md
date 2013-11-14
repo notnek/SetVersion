@@ -5,7 +5,8 @@ SetVersion for ExpressionEngine 2
 
 ## Installation
 
-The directory */setversion* should be placed in */system/expressionengine/third_party/*
++ The directory */setversion* should be placed in */system/expressionengine/third_party/*
++ Add the rules from .htaccess to your site's .htaccess file
 
 ## Usage
 
