@@ -1,0 +1,7 @@
+# SetVersion EE Plugin - Remove timestamp from asset files
+<FilesMatch "\.(css|js|jpg|gif|png)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 10 years"
+</FilesMatch>
+RewriteRule ^(.*)\.[0-9]+\.(css|js|jpg|gif|png)$ $1.$2 [L]
+# SetVersion EE Plugin 
